@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Kalkulator App</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <header>
+        <div class="container">
+            <h2>Calculator Sederhana</h2>
+        </div>
+    </header>
+    <div class="top-wrapper">
+        <div class="container">
+            <div class = "main-wrapper">
+                <div calss="calculator">
+                    <form name="form">
+                        <input type="text" class="text-view" name="textView">
+                    </form>
+                </div>
+                <div class="calculator">
+                    <input type="button" class="button clear" value="AC" onclick="hapusSemua()">
+                    <input type="button" class="button delete" value="&#8592" onclick="hapusSatu()">
+                    <input type="button" class="button" value="%" onclick="persen('%')">
+                    <input name= "operator" type="button" class="button" value="/" onclick="operan('/')">
+                    
+                    <input type="button" class="button" value="7" onclick="input(7)">
+                    <input type="button" class="button" value="8" onclick="input(8)">
+                    <input type="button" class="button" value="9" onclick="input(9)">
+                    <input type="button" class="button" value="*" onclick="operan('*')">
+                    
+                    <input type="button" class="button" value="4" onclick="input(4)">
+                    <input type="button" class="button" value="5" onclick="input(5)">
+                    <input type="button" class="button" value="6" onclick="input(6)">
+                    <input type="button" class="button" value="-" onclick="operan('-')">
+                    
+                    <input type="button" class="button" value="1" onclick="input(1)">
+                    <input type="button" class="button" value="2" onclick="input(2)">
+                    <input type="button" class="button" value="3" onclick="input(3)">
+                    <input type="button" class="button" value="+" onclick="operan('+')">
+                
+                    <input type="button" class="button" value="0" onclick="input(0)">
+                    <input type="button" class="button" value="." onclick="input('.')">
+                    <input type="button" class="button equal" value="=" onclick="operasi()">
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <h3>Project Individu Progate</3>
+        </div>
+    </footer>
+</body>
+</html>
