@@ -26,26 +26,27 @@ header{
     margin: 0 auto;
 }
 .container h2{
-    color :rgb(3, 203, 230);
+    color :white;
     font-size: 30px;
     margin-top: 15px;
-    font-family: "Old English Text MT";
-    font-style: italic;
+    font-family: sans-serif;
+    /* font-style: italic; */
 }
 .top-wrapper {
     padding: 180px 0 100px 0;
     background-image: url(https://media.istockphoto.com/photos/close-up-calculator-on-business-working-desk-dark-background-picture-id1155347271?k=20&m=1155347271&s=170667a&w=0&h=0YiYAt1UBPFBo_MxRHXNLqVJ4PNfKeBGoyIuNES0LPw=);
     background-size: cover;
+    
     color: white;
     text-align: center;
   }
 
 .main-wrapper{
-    max-width: 305px;
+    max-width: 405px;
     width: 100%;
-    padding: 0 5px;
+    padding: 0 15px;
     margin: 0 auto;
-    background-color: rgba(2, 16, 56, 0.8);
+    background-color: rgba(30, 30, 30, 0.8);
     padding-top:50px;
 }
 .button{
@@ -103,4 +104,5 @@ footer{
 .container h3{
     color :rgb(1, 61, 76);
     font-size : 25px;
+    font-family:sans-serif;
 }
